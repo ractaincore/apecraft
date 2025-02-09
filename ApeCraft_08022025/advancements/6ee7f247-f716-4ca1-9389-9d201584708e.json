@@ -1,0 +1,142 @@
+{
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2023-04-05 13:12:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2023-04-05 12:40:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2023-04-05 12:50:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2023-04-05 12:40:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2023-04-05 12:58:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2023-04-05 12:55:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2023-04-05 12:40:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2023-04-05 13:21:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2023-04-05 13:10:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2023-04-05 12:41:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2023-04-05 13:10:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2023-04-05 12:40:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2023-04-05 12:40:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "pumpkin_pie": "2023-04-07 13:21:39 +0000",
+      "golden_carrot": "2023-04-05 12:50:07 +0000"
+    },
+    "done": false
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2023-04-05 13:10:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2023-04-07 13:19:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2023-04-05 12:41:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2023-04-05 12:40:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2023-04-05 12:40:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:deep_ocean": "2023-04-05 13:10:26 +0000",
+      "minecraft:birch_forest": "2023-04-05 12:39:53 +0000",
+      "minecraft:windswept_hills": "2023-04-05 12:45:37 +0000",
+      "minecraft:river": "2023-04-05 12:40:29 +0000",
+      "minecraft:snowy_plains": "2023-04-05 12:56:09 +0000",
+      "minecraft:cold_ocean": "2023-04-05 12:56:04 +0000",
+      "minecraft:forest": "2023-04-05 12:40:08 +0000",
+      "minecraft:frozen_ocean": "2023-04-05 12:53:03 +0000",
+      "minecraft:desert": "2023-04-05 12:40:37 +0000",
+      "minecraft:deep_frozen_ocean": "2023-04-05 13:03:59 +0000",
+      "minecraft:windswept_forest": "2023-04-05 12:45:39 +0000",
+      "minecraft:snowy_beach": "2023-04-05 13:00:47 +0000",
+      "minecraft:plains": "2023-04-05 13:07:43 +0000"
+    },
+    "done": false
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2023-04-05 12:41:53 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 3105
+}
