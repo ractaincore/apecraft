@@ -1,7 +1,16 @@
-# Define the directory
-$directory = ".\ApeCraft_08022025\region\"
+# Define the correct directory path relative to the script location
+$directory = ".\ApeCraft_08022025\region"
 
-# Change to the repository directory
+# Resolve the full path to avoid issues
+$directory = Resolve-Path $directory
+
+# Ensure the directory exists
+if (!(Test-Path $directory)) {
+    Write-Host "Error: The directory does not exist: $directory"
+    exit 1
+}
+
+# Change to the correct directory
 Set-Location $directory
 
 # Get the list of files in the directory
@@ -13,7 +22,7 @@ if ($totalFiles -eq 0) {
     exit 0
 }
 
-$batchSize = 1000
+$batchSize = 500
 $index = 0
 
 while ($index -lt $totalFiles) {
@@ -26,10 +35,14 @@ while ($index -lt $totalFiles) {
     }
 
     Write-Host "Adding batch from $index to $(($index + $batch.Count - 1))..."
-    git add -- "@batch"
-    if ($LASTEXITCODE -ne 0) {
-        Write-Host "Git add failed. Exiting..."
-        exit 1
+
+    # Add files individually to avoid long command errors
+    foreach ($file in $batch) {
+        git add -- "$file"
+        if ($LASTEXITCODE -ne 0) {
+            Write-Host "Git add failed on file: $file. Exiting..."
+            exit 1
+        }
     }
 
     Write-Host "Committing batch..."
@@ -47,7 +60,7 @@ while ($index -lt $totalFiles) {
     }
 
     $index += $batchSize
-    Start-Sleep -Seconds 2  # Optional delay between batches
+    Start-Sleep -Seconds 1  # Optional delay between batches
 }
 
 Write-Host "All files processed successfully."
